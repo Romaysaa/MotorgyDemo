@@ -1,0 +1,401 @@
+
+  <div class="container">
+    <section class="main1">
+      <div class="container">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-5  col-lg-6 mb-0">
+            <ul class="list-inline m-0">
+
+              <li class="list-inline-item" style="padding-right: 10px">
+                <a href="/new-cars">New cars</a>
+              </li>
+              <li class="list-inline-item" style="padding-right: 10px">
+                <a  href="/used-cars">Used cars</a>
+              </li>
+              <li class="list-inline-item" style="padding-right: 10px">
+                <a href="/sell-your-car">Sell your car</a>
+              </li>
+              <li class="list-inline-item">
+                <a  href="/car-showrooms">Car showrooms</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-5 col-lg mb-0">
+            <ul class="list-inline m-0">
+              <li class="list-inline-item" >
+                <a class="nav-link "href="/lang">عربي</a>
+              </li>
+              <li class="list-inline-item">
+                <a class="nav-link phoneClass" href="tel:22968321" >
+                  <i class="fa fa-phone"></i>
+                  22968321
+
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a class="nav-link" href="/Account/SignIn">
+                  <i class="fa fa-user "></i> </a>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <ul class="list-inline m-0">
+              <li class="list-inline-item"><a href="/">Home</a></li>
+              <li class="list-inline-item"><a href="/my-account">My Account</a></li>
+              <li class="list-inline-item disabled" style=" opacity: 0.7"><a href="#">Dashboard</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="my-account">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-3 mb-3">
+            <h2 >Dashboard</h2>
+
+            <div style="border-style: solid;border-color: whitesmoke;padding-top: 20px;padding-bottom: 20px">
+              <a href="/car">
+                <img  style="align-content: center" src="https://motorgy.s3.eu-central-1.amazonaws.com/JMC.png"  alt="brand">
+              </a>
+            </div>
+
+            <div class="module module-account-menu bg-gray mt-4">
+       <ul class="list-unstyled" style="margin:unset !important;">
+                <li>
+                  <a href="/my-account/dashboard">
+                    Dashboard
+                  </a>
+                </li>
+                <li>
+                  <a href="/ads">
+                    Ads
+                  </a>
+                </li>
+                <li>
+                  <a href="/my-account/offers">
+                    Offers
+                  </a>
+                </li>
+                <li>
+                  <a href="/my-account">
+                    Profile
+                  </a>
+                </li>
+                <li>
+                  <a href="/my-account/add_car" style=" border-bottom: none;">
+                    Add a Car
+                  </a>
+                </li>
+
+
+
+              </ul>
+            </div>
+
+          </div><!-- end sidebar -->
+<div class="col col-lg mb-3">
+  <div class="row" style="margin-top: 20px">
+    <div class="form-group row">
+      <label for="example-month-input" class="col-2 col-form-label">Month</label>
+      <div class="col-10">
+        <input class="form-control" type="month" value="2011-08" id="example-month-input">
+      </div>
+    </div>
+    <div class="col" style="float: right"></div>
+
+    <button pButton type="button" label=" +  Add Car "  class="ui-button-rounded" style="float: right"></button>
+
+  </div>
+  <div class="row" style="margin-top: 20px">
+
+    <div class="col">
+      <p-card >
+        <p-header>
+          TOTAL CALLS
+        </p-header>
+        <div class="row">
+          <div class="col">
+            <img src="../assets/images.jpeg" style="height: 30px;width: 30px; ">
+          </div>
+          <div class="col">
+            <h3>4000</h3>
+          </div>
+        </div>
+        <p-footer>
+        </p-footer>
+      </p-card>
+    </div>
+
+    <div class="col">
+      <p-card >
+        <p-header>
+          TOTAL Whatsup
+        </p-header>
+        <div class="row">
+
+          <div class="col">
+
+            <img src="../assets/download%20(3).jpeg" style="height: 30px;width: 30px;"></div>
+          <div class="col">
+
+            <h3>600</h3>
+          </div>
+        </div>
+        <p-footer>
+        </p-footer>
+      </p-card>
+    </div>
+
+    <div class="col">
+      <p-card >
+        <p-header>
+          TOTAL CALLS
+        </p-header>
+        <div class="row">
+
+          <div class="col">
+            <img src="../assets/download%20(1).png" style="height: 30px;width: 30px;">
+          </div>
+          <div class="col">
+            <h3>589</h3>
+          </div>
+        </div>
+        <p-footer>
+        </p-footer>
+      </p-card>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 20px">
+    <div class="col">
+      <p-card >
+        <header>TOTAL CARS SUBMITTED</header>
+        <div ><h2>70</h2></div>
+
+        <div >TOTAL CARS</div>
+        <div>
+          <p-chart type="doughnut" [data]="data"></p-chart>
+        </div>
+      </p-card>
+
+    </div>
+
+    <div class="col">
+      <p-card >
+        <header>TOTAL INCOMING REQUEST</header>
+
+      <div class="row" style="margin-top: 20px">
+
+        <div class="col-4 col-lg-4 mb-3" >
+          <div ><h2>96</h2></div>
+
+          Total requests</div>
+        <div class="col-8 col-lg-8 mb-3">
+          <div class="row"style="margin-left: 2px"> Test drive</div>
+
+          <div  class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%;background-color: forestgreen" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row" style="margin-top: 10px;margin-left: 2px"> Home demo</div>
+
+          <div class="progress">
+
+            <div class="progress-bar" role="progressbar" style="width: 90%;background-color: #FFCE56" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row"   style="margin-top: 10px;margin-left: 2px">Best price offer</div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 10%;background-color: #4BC0C0" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="row"   style="margin-top: 10px;margin-left: 2px">General inquires</div>
+
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%;background-color: #FF6384" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <!--          <br>-->
+          <!--          <div class="progress">-->
+          <!--            <div class="progress-bar" role="progressbar" style="width: 80%;background-color: chocolate" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>-->
+          <!--          </div>-->
+          <!--          <p-chart type="polarArea" [data]="dataDough"></p-chart>-->
+        </div>
+      </div>
+      </p-card>
+
+    </div>
+  </div>
+  <p-card>
+    <div class="row">
+      <div class="col-5 col-lg mb">
+        <header>TOP CARS</header></div>
+      <div class="col-7 col-lg mb">
+        <button pButton type="button" label=" Views " class="ui-button-rounded"></button>
+        <button pButton type="button" label=" Calls " class="ui-button-rounded ui-button-secondary"></button>
+        <button pButton type="button" label=" Chats " class="ui-button-rounded ui-button-secondary"></button>
+      </div>
+    </div>
+    <div class="row" style="margin-left: 30px;margin-top: 40px;margin-right: 30px">
+      <div class="col-6 col-lg-3 mb-3">
+        <p-lightbox [images]="images" ></p-lightbox>
+
+      </div>
+      <div class="col-6 col-lg-3 mb-3">
+        <p-lightbox [images]="images" ></p-lightbox>
+
+      </div>
+      <div class="col-6 col-lg-3 mb-3">
+        <p-lightbox [images]="images" ></p-lightbox>
+
+      </div>
+      <div class="col-6 col-lg-3 mb-3">
+        <p-lightbox [images]="images" ></p-lightbox>
+
+      </div>
+
+    </div>
+  </p-card></div>
+        </div>
+      </div>
+ </section>
+<!--    <div class="row" style="margin-top: 20px">-->
+<!--      <div class="form-group row">-->
+<!--        <label for="example-month-input" class="col-2 col-form-label">Month</label>-->
+<!--        <div class="col-10">-->
+<!--          <input class="form-control" type="month" value="2011-08" id="example-month-input">-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="col" style="float: right"></div>-->
+
+<!--      <button pButton type="button" label=" +  Add Car "  class="ui-button-rounded" style="float: right"></button>-->
+
+<!--    </div>-->
+<!--    <div class="row" style="margin-top: 20px">-->
+
+<!--      <div class="col">-->
+<!--        <p-card >-->
+<!--          <p-header>-->
+<!--            TOTAL CALLS-->
+<!--          </p-header>-->
+<!--          <div class="row">-->
+<!--            <div class="col">-->
+<!--              <img src="../assets/images.jpeg" style="height: 30px;width: 30px; ">-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--            <h3>4000</h3>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--            <p-footer>-->
+<!--          </p-footer>-->
+<!--        </p-card>-->
+<!--      </div>-->
+
+<!--      <div class="col">-->
+<!--        <p-card >-->
+<!--          <p-header>-->
+<!--            TOTAL Whatsup-->
+<!--          </p-header>-->
+<!--          <div class="row">-->
+
+<!--          <div class="col">-->
+
+<!--            <img src="../assets/download%20(3).jpeg" style="height: 30px;width: 30px;"></div>-->
+<!--          <div class="col">-->
+
+<!--            <h3>600</h3>-->
+<!--          </div>-->
+<!--          </div>-->
+<!--          <p-footer>-->
+<!--          </p-footer>-->
+<!--        </p-card>-->
+<!--      </div>-->
+
+<!--      <div class="col">-->
+<!--        <p-card >-->
+<!--          <p-header>-->
+<!--            TOTAL CALLS-->
+<!--          </p-header>-->
+<!--          <div class="row">-->
+
+<!--          <div class="col">-->
+<!--          <img src="../assets/download%20(1).png" style="height: 30px;width: 30px;">-->
+<!--          </div>-->
+<!--          <div class="col">-->
+<!--           <h3>589</h3>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <p-footer>-->
+<!--          </p-footer>-->
+<!--        </p-card>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  <div class="row" style="margin-top: 20px">-->
+<!--    <div class="col">-->
+<!--      <p-card >-->
+<!--        <header>TOTAL CARS SUBMITTED</header>-->
+<!--        <div ><h2>70</h2></div>-->
+
+<!--        <div >TOTAL CARS</div>-->
+<!--        <div>-->
+<!--      <p-chart type="doughnut" [data]="data"></p-chart>-->
+<!--        </div>-->
+<!--      </p-card>-->
+
+<!--    </div>-->
+
+<!--    <div class="col">-->
+<!--      <p-card >-->
+<!--        <header>TOTAL INCOMING REQUEST</header>-->
+<!--        <div ><h2>96</h2></div>-->
+
+<!--        <div >TOTAL REGUESTS</div>-->
+<!--        <div>-->
+<!--      <p-chart type="polarArea" [data]="dataDough"></p-chart>-->
+<!--        </div>-->
+<!--      </p-card>-->
+
+<!--    </div>-->
+<!--  </div>-->
+<!--    <p-card>-->
+<!--      <div class="row">-->
+<!--        <header>TOP PERFORMANCE CARS</header>-->
+<!--        <div class="col">-->
+<!--        <button pButton type="button" label=" Views " class="ui-button-rounded"></button>-->
+<!--        <button pButton type="button" label=" Calls " class="ui-button-rounded ui-button-secondary"></button>-->
+<!--        <button pButton type="button" label=" Chats " class="ui-button-rounded ui-button-secondary"></button>-->
+<!--      </div>-->
+<!--      </div>-->
+
+<!--    <div class="row" style="margin-left: 60px;margin-top: 40px;margin-right: 60px">-->
+<!--      <div class="col-3">-->
+<!--        <p-lightbox [images]="images" ></p-lightbox>-->
+
+<!--      </div>-->
+<!--      <div class="col-3">-->
+<!--        <p-lightbox [images]="images" ></p-lightbox>-->
+
+<!--      </div>-->
+<!--      <div class="col-3">-->
+<!--        <p-lightbox [images]="images" ></p-lightbox>-->
+
+<!--      </div>-->
+<!--      <div class="col-3">-->
+<!--        <p-lightbox [images]="images" ></p-lightbox>-->
+
+<!--      </div>-->
+
+<!--    </div>-->
+<!--    </p-card>-->
+</div>
+<!--</div>-->
+<app-footer></app-footer>
